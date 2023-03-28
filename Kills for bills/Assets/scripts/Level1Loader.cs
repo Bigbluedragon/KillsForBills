@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class PlayButtonUI : MonoBehaviour
+public class Level1Loader : MonoBehaviour
 {
     public void changeScene()
     {
-        SceneManager.LoadScene("LevelSelector");
+        SceneManager.LoadScene("Level1");
     }
 }

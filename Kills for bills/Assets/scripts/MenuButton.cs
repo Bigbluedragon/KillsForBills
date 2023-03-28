@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class PlayButtonUI : MonoBehaviour
+public class MenuButton : MonoBehaviour
 {
-    public void changeScene()
+    public void GoMenu()
     {
-        SceneManager.LoadScene("LevelSelector");
+        SceneManager.LoadScene("Main Menu");
     }
 }
