@@ -11,4 +11,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/LevelSelector.unity
     guid: daff19deb8ab0d34d963b91028706b75
+  - enabled: 1
+    path: Assets/Scenes/Sample level.unity
+    guid: 16eb677e016688841b18212b64d50626
+  - enabled: 1
+    path: Assets/Scenes/Secret_Room.unity
+    guid: 7b17b6af3a047ef4b914eeecfa6851a9
   m_configObjects: {}
