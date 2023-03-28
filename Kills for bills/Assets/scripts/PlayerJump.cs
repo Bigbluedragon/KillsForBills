@@ -22,7 +22,7 @@ public class PlayerJump : MonoBehaviour
     void Update()
     {
 
-        isGrounded = Physics2D.OverlapCapsule(groundCheck.position, new Vector2(0.32f, 1f), CapsuleDirection2D.Vertical, 0, groundLayer);
+        isGrounded = Physics2D.OverlapCapsule(groundCheck.position, new Vector2(1.07f, 0.91f), CapsuleDirection2D.Vertical, 0, groundLayer);
 
         if(Input.GetButtonDown("Jump") && isGrounded)
         {
