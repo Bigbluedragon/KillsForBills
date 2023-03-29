@@ -7,6 +7,6 @@ public class Level1Loader : MonoBehaviour
 {
     public void changeScene()
     {
-        SceneManager.LoadScene("Level1");
+        SceneManager.LoadScene("Sample level");
     }
 }
