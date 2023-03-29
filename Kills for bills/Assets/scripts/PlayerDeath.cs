@@ -2,6 +2,7 @@ using System.Collections;
 using System;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerDeath : MonoBehaviour
 
@@ -11,6 +12,8 @@ public class PlayerDeath : MonoBehaviour
     
     private Rigidbody2D rb;
     private void Start()
+    
+
     {
         rb = GetComponent<Rigidbody2D>();
     }
